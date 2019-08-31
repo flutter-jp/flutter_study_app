@@ -17,4 +17,4 @@ jobs:
     - run: cd flutter_windows_v1.7.8+hotfix.4-stable && export PATH=`pwd`/flutter/bin:$PATH
     - uses: actions/checkout@v1
     - name: Install dependencies
-      run: pub get
+      run: flutter pub get
